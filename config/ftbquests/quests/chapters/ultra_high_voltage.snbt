@@ -596,7 +596,7 @@
 				}
 			]
 			x: -6.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["702CE73E39E4D4BD"]
@@ -652,8 +652,8 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
-			y: 4.5d
+			x: -6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["30954ADF34DB05A7"]
@@ -1361,6 +1361,103 @@
 			}]
 			x: 1.799999999999999d
 			y: -7.0d
+		}
+		{
+			dependencies: ["702CE73E39E4D4BD"]
+			description: [
+				"I'm sure you have made many an ABS in your playthrough.  And now.... &oIt is time&r. "
+				""
+				"Time for an &lupgrade,&r one capable of extreme amounts of paralleled strength!"
+				""
+				"Get a few of these set up and continue your journey forward!"
+			]
+			id: "7CF668319F4B5E11"
+			shape: "gear"
+			subtitle: "Even Faster ABS!"
+			tasks: [
+				{
+					id: "52F1AB970B486A4E"
+					item: "gtceu:highly_reactive_molten_blast_smeltery"
+					type: "item"
+				}
+				{
+					count: 19L
+					id: "4AD9DD539F8A28B1"
+					item: { Count: 19, id: "gtceu:neutronium_frame" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "70FEAFC4CF000485"
+					item: { Count: 4, id: "gtceu:fusion_coil" }
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "1263D25A795C537C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:rtm_alloy_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hssg_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:naquadah_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:cupronickel_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:kanthal_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:nichrome_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:trinium_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:tritanium_coil_block"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "233A5D090F270DA1"
+					item: { Count: 12, id: "gtceu:heat_vent" }
+					type: "item"
+				}
+				{
+					count: 57L
+					id: "6308BE64244B426D"
+					item: { Count: 58, id: "gtceu:high_temperature_smelting_casing" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2B890A1B8D010AD6"
+					item: { Count: 3, id: "gtceu:robust_machine_casing" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 3.0d
 		}
 	]
 	title: "{atm9.chapters.35.title}"

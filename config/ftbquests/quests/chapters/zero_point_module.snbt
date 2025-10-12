@@ -1729,6 +1729,196 @@
 			x: 2.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["586266B2096D27A7"]
+			description: [
+				"Previously you have had two choices. "
+				""
+				"You could either crack your hydrocarbons in the cracker (which is slow) or the large chemical reactor (in which you lose half the products). However, now you gain acess to the Advanced Cracking Unit!"
+				""
+				"You no longer have to deal with the pain of your previous cracking setup. Now you can focus on more important stuff (like building your further HPCAs)."
+			]
+			id: "4624100EDC23C74F"
+			subtitle: "You ready to take a crack at it?"
+			tasks: [
+				{
+					id: "5C5CD0DF7C89234E"
+					item: "gtceu:advanced_cracking_unit"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6FED209478A483CA"
+					item: "gtceu:hp_steam_solid_boiler"
+					type: "item"
+				}
+				{
+					count: 11L
+					id: "7CF9B87F837B9646"
+					item: { Count: 11, id: "gtceu:tungstensteel_firebox_casing" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "74838E9639987187"
+					item: {
+						Count: 24
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:rtm_alloy_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hssg_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:naquadah_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:cupronickel_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:kanthal_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:nichrome_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:trinium_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:tritanium_coil_block"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "30C9B93110FE0356"
+					item: { Count: 15, id: "gtceu:tungstensteel_pipe_casing" }
+					type: "item"
+				}
+				{
+					count: 79L
+					id: "6E5BF2C1FE06C36C"
+					item: { Count: 79, id: "gtceu:robust_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "473B3DE82662068E"
+					item: { Count: 10, id: "gtceu:clean_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["586266B2096D27A7"]
+			description: [
+				"Now, your current pyrolyse ovens might not be slow, but they can be laggy. "
+				""
+				"This superheated version fixes both problems! With the batching capabilities of this multiblock, your factory can grow even more,.! Now with less lag!"
+			]
+			id: "14975960BFCF6513"
+			subtitle: "Now you are bringing the heat!"
+			tasks: [
+				{
+					id: "398BDA0D26C5CD99"
+					item: "gtceu:superheated_pyrolyzing_oven"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "63F52A181517E26F"
+					item: { Count: 3, id: "gtceu:steel_firebox_casing" }
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "13BB430810BAB4A7"
+					item: {
+						Count: 21
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:rtm_alloy_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:hssg_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:naquadah_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:cupronickel_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:kanthal_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:nichrome_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:trinium_coil_block"
+								}
+								{
+									Count: 1b
+									id: "gtceu:tritanium_coil_block"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "6E8D8FEBDEC3C2EC"
+					item: { Count: 18, id: "gtceu:ptfe_pipe_casing" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6B81BBA65F3435AE"
+					item: { Count: 32, id: "gtceu:laminated_glass" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "34B0EE21AB6CA6B3"
+					item: { Count: 20, id: "gtceu:high_temperature_smelting_casing" }
+					type: "item"
+				}
+				{
+					count: 74L
+					id: "36696C8DC852E41E"
+					item: { Count: 74, id: "gtceu:solid_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -3.0d
+		}
 	]
 	title: "{atm9.chapters.33.title}"
 }

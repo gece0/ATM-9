@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
       '3x gtceu:luv_electric_piston',
       '2x gtceu:luv_electric_pump',
       '1x gtceu:luv_machine_hull',
-      '4x gtceu:osmiridum_gear',
+      '4x gtceu:osmiridium_gear',
    '2x gtceu:niobium_nitride_quadruple_cable',
      )
      .inputFluids('gtceu:soldering_alloy 1152','gtceu:vanadium_gallium')
@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
      .stationResearch(b => b.researchStack(Item.of('gtceu:cracker')).EUt(30720).CWUt(20, 32000))
  event.recipes.gtceu.assembly_line('highly_reactive_molten_blast_smeltery')
      .itemInputs('16x #gtceu:circuits/uhv',
-      '8x gtceu:uv_field_gen',
+      '8x gtceu:uv_field_generator',
       '4x gtceu:blacklight',
       '2x gtceu:tritanium_coil_block',
       '16x gtceu:high_temperature_smelting_casing',
